@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://ec2-18-216-110-14.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/MAVEN-REL/</url>
+            <url>http://localhost:8081/repository/SAMPLE-REL/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://ec2-18-216-110-14.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/MAVEN-SNAP/</url>
+            <url>http://localhost:8081/repository/SAMPLE-SNAPSHOT/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
